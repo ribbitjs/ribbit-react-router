@@ -1,0 +1,19 @@
+{
+  "name": "ribbit-react-router",
+  "version": "1.0.0",
+  "description": "react router plug-in for ribbitJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-bimmer/ribbit-react-router.git"
+  },
+  "author": "Brian Hon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team-bimmer/ribbit-react-router/issues"
+  },
+  "homepage": "https://github.com/team-bimmer/ribbit-react-router#readme"
+}

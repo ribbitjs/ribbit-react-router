@@ -1,7 +1,7 @@
-const {jsx} = require('src/index');
+const {jreactRouter} = require('src/index');
 
 module.exports = {
-    serialize: {
-        jsxCompose
+    serializing: {
+        reactRouter
     }
-}
+};

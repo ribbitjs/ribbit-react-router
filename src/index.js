@@ -1,7 +1,7 @@
-const reactRouter = require('./jsx');
+const {reactRouter} = require('./jsx');
 
 module.exports = {
-    serializing: {
-        reactRouter
-    }
+    reactRouter,
+    phase: execution, 
+    module: jsxCompose
 };

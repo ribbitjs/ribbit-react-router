@@ -1,4 +1,5 @@
 import { StaticRouter } from 'react-router-dom';
+const { renderToNodeStream } = require('react-dom/server');
 
 const reactRouter = CompiledApp => {
     let componentRoute = req.url;
@@ -8,7 +9,8 @@ const reactRouter = CompiledApp => {
             <CompiledApp />
         </StaticRouter>
     )
-    return jsx
+    const reactStream = renderToNodeStream(jsx);
+    return reactStream;
 }
 
 module.exports = reactRouter; 

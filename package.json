@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/team-bimmer/ribbit-react-router/issues"
   },
-  "homepage": "https://github.com/team-bimmer/ribbit-react-router#readme"
+  "homepage": "https://github.com/team-bimmer/ribbit-react-router#readme",
+  "dependencies": {
+    "react-router-dom": "^4.3.1"
+  }
 }

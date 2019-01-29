@@ -1,4 +1,5 @@
-import { StaticRouter } from 'react-router-dom';
+const React = require('react');
+const StaticRouter = require('react-router-dom');
 
 const reactRouter = (CompiledApp, { req }) => {
     let componentRoute = req.url;
@@ -11,4 +12,4 @@ const reactRouter = (CompiledApp, { req }) => {
     return jsx;
 }
 
-module.exports = reactRouter; 
+module.exports = reactRouter;

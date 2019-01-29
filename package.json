@@ -1,5 +1,5 @@
 {
-  "name": "ribbit-react-router",
+  "name": "@ribbit/react-router",
   "version": "1.0.0",
   "description": "react router plug-in for ribbitJS",
   "main": "index.js",

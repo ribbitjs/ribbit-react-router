@@ -1,3 +1,12 @@
 {
-  "rootMode": "upward"
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    "@babel/plugin-syntax-dynamic-import",
+    [
+      "import-inspector",
+      {
+        "serverSideRequirePath": true
+      }
+    ]
+  ]
 }

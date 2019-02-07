@@ -1,15 +1,13 @@
-const React = require('react');
-const StaticRouter = require('react-router-dom');
+import React from "react";
+import { StaticRouter } from "react-router-dom";
 
-const reactRouter = (CompiledApp, { req }) => {
-    let componentRoute = req.url;
-    const context = {};
-    const jsx = (
-        <StaticRouter context={context} location={componentRoute}>
-            <CompiledApp />
-        </StaticRouter>
-    )
-    return jsx;
-}
+const reactRouter = ({ App, config }) => {
+  const { req } = config;
+  return (
+    <StaticRouter context={{}} location={req}>
+      <App />
+    </StaticRouter>
+  );
+};
 
 module.exports = reactRouter;
